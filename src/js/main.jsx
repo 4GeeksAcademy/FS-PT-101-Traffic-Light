@@ -15,26 +15,11 @@ import Home from './components/Home';
 
 
 function Semaforo(){
-
-  const [index, setIndex] = useState(0);
-  let arrayColors = ["colorRed","colorOrange","colorGreen"]
-
-function aumentarIndex(){
-  if (index === 2){
-   setIndex(0)
-  }
-  else{
- setIndex(index +1)
-  }
-}
-
   
 
 return (
   <div className='alineadoCentro'>
-    <button className="p-0" onClick={aumentarIndex}>
-      <Home color={arrayColors[index]}/>
-    </button>
+      <Home/>
   </div>
 );
 };
