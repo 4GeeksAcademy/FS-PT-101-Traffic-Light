@@ -32,7 +32,7 @@ function aumentarIndex(){
 
 return (
   <div className='alineadoCentro'>
-    <button onClick={aumentarIndex}>
+    <button className="p-0" onClick={aumentarIndex}>
       <Home color={arrayColors[index]}/>
     </button>
   </div>
