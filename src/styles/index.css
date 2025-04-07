@@ -9,3 +9,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.divImg{
+    height: 30em;
+    width: 11.5em;
+    margin: auto;
+    position: relative;
+}
+.relativo{
+    position: relative;
+}
+.colorRed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  margin-top: 5.5%;
+  margin-left: 10%;
+  height: 9em;
+  box-shadow: 0em 0em 6em yellow;
+  border-radius: 50%;
+}
+.colorOrange{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-top: 90%;
+    margin-left: 10%;
+    height: 9em;
+    box-shadow: 0em 0em 6em yellow;
+    border-radius: 50%;
+  }
+  .colorGreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-top: 176.5%;
+    margin-left: 10%;
+    height: 9em;
+    box-shadow: 0em 0em 6em yellow;
+    border-radius: 50%;
+  }
+  .alineadoCentro{
+    justify-self: center;
+  }
